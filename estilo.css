@@ -1,0 +1,44 @@
+body{
+
+    text-align: center;
+    font: normal 16pt Arial;
+}
+header{
+    background-image: linear-gradient(to right, #fd0000, #3e28ffd9);
+    color: transparent;
+    background-clip: text;
+    font: normal 40px arial;
+    font-family: 'Times New Roman', Times, serif;    
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgba(85, 65, 211, 0.768);
+}
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+input#buttonverificar{
+    width: 160px;
+    height: 40px;
+    box-shadow: 4px 4px 4px #000000;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+h1#introducao{
+    font: 30px comic; 
+}
+input#txtano{
+    width: 185px;
+    box-shadow: 4px 4px 10px black;
+}
+input#nome{
+    width: 310px;
+    box-shadow: 4px 4px 10px black;
+}

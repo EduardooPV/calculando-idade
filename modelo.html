@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body background="wallpaper-floral-tumblr-celular-baixar-gratis-01.jpg">
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <h1 id='introducao'>Olá, preencha alguma informações para podermos avaliar a sua idade.</h1>
+        <div>
+           <p>Nome <strong>*</strong> :
+                <input type="text" name="nome" id="nome">
+           </p>
+           <p>Ano de Nascimento <strong>*</strong> : 
+                <input type="number" name="txtano" id="txtano" min='0'>
+           </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masculino" >
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="radsex" id="desconhecido">
+                <label for="desconhecido">Outro(a)</label>
+            </p>
+            <p>
+                <input id='buttonverificar' type="button" value="VERIFICAR" onclick='verificar()'>
+            </p>
+        </div>
+        <div id='res'>
+           Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;EduardoPrado</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
