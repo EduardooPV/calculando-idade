@@ -15,42 +15,40 @@ function verificar() {
         if (fsex[0].checked) { // Se homem foi selecionado
             genero = 'Homem'
             if (idade >= 0 && idade < 4) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>bebê</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'bebehomem.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>bebê</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/bebehomem.png')
             } else if (idade < 8) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>garoto</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'criancahomem.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>garoto</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/criancahomem.png')
             } else if (idade < 18) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>adolescente</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'adolescentehomem.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>adolescente</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/adolescentehomem.png')
             } else if (idade < 50) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>adulto</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'adultohomem.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>adulto</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/adultohomem.png')
             } else {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>idoso</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'velhohomem.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é um <strong>idoso</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/velhohomem.png')
             }
         } else if (fsex[1].checked) { // Mulher selecionada
             genero = 'Mulher'
             if (idade >= 0 && idade < 4) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>bebê</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'bebemulher.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>bebê</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/bebemulher.png')
             } else if (idade < 8) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>garota</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'criancamulher.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>garota</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/criancamulher.png')
             } else if (idade < 18) { 
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>adolescente</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'adolescentemulher.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>adolescente</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/adolescentemulher.png')
             } else if (idade < 50) {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>adulta</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'adultomulher.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>adulta</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/adultomulher.png')
             } else {
-                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>idosa</strong> com <strong>${idade} anos!</strong>`
-                img.setAttribute('src', 'velhomulher.png')
+                res.innerHTML = `Olá, <strong>${nome}</strong>! você é uma <strong>idosa</strong> com <strong>${idade} anos!</strong></br>`
+                img.setAttribute('src', 'imagens/velhomulher.png')
             }
         } else {
-            res.innerHTML = `Olá, <strong>${nome}</strong>! você faz parte do(a) <strong>LGBT</strong> com <strong>${idade} anos!</strong>`
-            img.setAttribute('src', 'lgbt.png')
         }
         res.style.textAlign = 'center'
         res.appendChild(img) // Mostrar a foto na tela

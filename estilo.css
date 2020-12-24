@@ -4,9 +4,7 @@ body{
     font: normal 16pt Arial;
 }
 header{
-    background-image: linear-gradient(to right, #fd0000, #3e28ffd9);
-    color: transparent;
-    background-clip: text;
+    color: black;
     font: normal 40px arial;
     font-family: 'Times New Roman', Times, serif;    
 }
