@@ -1,4 +1,13 @@
-# Calculando idade
-Da input do seu nome, data de nascimento, e o sexo, e calcula a sua idade, a cada fase da sua vida, aparece uma foto representando a sua idade e o seu gênero.  
+# Calculando a idade
 
-![image](https://user-images.githubusercontent.com/69824782/103102940-41ec9c00-45fd-11eb-8d9f-46ea9cdf516a.png)
+## Projeto desenvolvido após estudar JavaScript.
+
+Onde o usuário preenche alguns campos como:
+
+- Nome;
+- Ano de nascimento;
+- Sexo. 
+
+E eu trabalhei com as variáveis e estruturas de condições como foco do projeto, quando dependendo da idade e do sexo, aparece uma foto ilustrativa referente a pessoa em questão.
+
+![image](https://user-images.githubusercontent.com/69824782/103175346-1e696180-4848-11eb-80bb-7750453c1446.png)
